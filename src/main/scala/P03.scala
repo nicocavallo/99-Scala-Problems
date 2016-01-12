@@ -2,6 +2,11 @@ package org.p99.scala
 
 object P03 {
 
-  // TODO
+  def nth[T](n: Int,list:List[T]):T = {
+    if (list != null && list.size > n)
+      list(n)
+    else
+      throw new NoSuchElementException
+  }
 
 }

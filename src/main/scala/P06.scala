@@ -2,6 +2,12 @@ package org.p99.scala
 
 object P06 {
 
-  // TODO
+  def isPalindrome[T](list:List[T]): Boolean = list match {
+    case head :: Nil => true
+    case Nil => true
+    case head :: tail => {
+      head == tail.last && isPalindrome(tail.init)
+    }
+  }
 
 }
