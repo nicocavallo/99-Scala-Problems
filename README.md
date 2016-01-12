@@ -1,6 +1,7 @@
 # 99 Scala Problems
 
 [![Build Status](https://travis-ci.org/nicocavallo/99-Scala-Problems.svg)](https://travis-ci.org/nicocavallo/99-Scala-Problems)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/f155a3ba2f12491d81950b9d89a9cef9)](https://www.codacy.com/app/nicocavallo/99-Scala-Problems)
 
 This is a set of 99 Scala problems of various levels of difficulty.
 
