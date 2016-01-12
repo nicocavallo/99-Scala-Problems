@@ -1,5 +1,7 @@
 # 99 Scala Problems
 
+[![Build Status](https://travis-ci.org/nicocavallo/99-Scala-Problems.svg)](https://travis-ci.org/nicocavallo/99-Scala-Problems)
+
 This is a set of 99 Scala problems of various levels of difficulty.
 
 Translations:
