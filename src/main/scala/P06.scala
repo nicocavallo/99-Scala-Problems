@@ -6,7 +6,7 @@ object P06 {
     case head :: Nil => true
     case Nil => true
     case head :: tail => {
-      head == tail.last && isPalindrome(tail.init)
+      head == tail.lastOption.getOrElse(false) && isPalindrome(tail.init)
     }
   }
 
